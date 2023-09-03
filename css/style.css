@@ -1,8 +1,14 @@
 body {
   margin: 0;
+  font-family: "DM Sans", sans-serif, "Battambang", cursive;
 }
 nav {
+  position: fixed;
   background-color: #4e4d4d;
+  margin: 0;
+  width: 100%;
+  top: 0;
+  height: 100px;
 }
 .nav-bar {
   margin: 0 25px 10px 25px;
@@ -22,13 +28,17 @@ nav {
 }
 .nav-bar .menu h3:hover {
   background-color: white;
-  transition: 10ms;
+  transition: 0.5s;
 }
 .nav-bar .menu h3 a {
   color: white;
   text-decoration: none;
-  padding: 17px;
+  padding: 12px;
 }
 .nav-bar .menu h3 a:hover {
   color: black;
+}
+.body-container {
+  margin: 120px 0 0 0;
+  padding: 0 15px 15px 15px;
 }
